@@ -2,7 +2,8 @@
 使用java实现的反向tcp链接，可实现端口转发、内网穿透。
 使用java标准库，不依赖第三方库。只需编译rtcp.java即可。
 
-参考项目https://github.com/knownsec/rtcp，命令行格式与其一致。但改进了程序在等待对端链接容易引起死锁的问题、重连间隔改为10秒。
+参考项目https://github.com/knownsec/rtcp
+命令行格式与其一致。但改进了程序在等待对端链接容易引起死锁的问题、重连间隔改为10秒。
 
 
 # Usage: 
